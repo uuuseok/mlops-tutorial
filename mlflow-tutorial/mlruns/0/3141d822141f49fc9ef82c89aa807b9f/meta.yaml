@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3141d822141f49fc9ef82c89aa807b9f/artifacts
+end_time: 1671605525378
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3141d822141f49fc9ef82c89aa807b9f
+run_name: salty-seal-995
+run_uuid: 3141d822141f49fc9ef82c89aa807b9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671605523660
+status: 3
+tags: []
+user_id: ubuntu

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a1f038c2ed114f0e97b76b0caf7a4e94/artifacts
+end_time: 1671689750566
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1f038c2ed114f0e97b76b0caf7a4e94
+run_name: masked-tern-684
+run_uuid: a1f038c2ed114f0e97b76b0caf7a4e94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671689748816
+status: 3
+tags: []
+user_id: ubuntu

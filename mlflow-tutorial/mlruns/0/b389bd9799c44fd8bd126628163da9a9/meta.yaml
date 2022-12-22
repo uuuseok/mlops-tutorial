@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b389bd9799c44fd8bd126628163da9a9/artifacts
+end_time: 1671605544256
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b389bd9799c44fd8bd126628163da9a9
+run_name: learned-eel-787
+run_uuid: b389bd9799c44fd8bd126628163da9a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671605542544
+status: 3
+tags: []
+user_id: ubuntu

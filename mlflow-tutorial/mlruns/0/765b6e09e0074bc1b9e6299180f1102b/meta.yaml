@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/765b6e09e0074bc1b9e6299180f1102b/artifacts
+end_time: 1671605518883
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 765b6e09e0074bc1b9e6299180f1102b
+run_name: victorious-stoat-933
+run_uuid: 765b6e09e0074bc1b9e6299180f1102b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671605517167
+status: 3
+tags: []
+user_id: ubuntu

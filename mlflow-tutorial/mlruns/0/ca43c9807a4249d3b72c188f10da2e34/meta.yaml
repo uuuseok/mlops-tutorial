@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ca43c9807a4249d3b72c188f10da2e34/artifacts
+end_time: 1671605597664
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca43c9807a4249d3b72c188f10da2e34
+run_name: thoughtful-sloth-286
+run_uuid: ca43c9807a4249d3b72c188f10da2e34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671605595950
+status: 3
+tags: []
+user_id: ubuntu

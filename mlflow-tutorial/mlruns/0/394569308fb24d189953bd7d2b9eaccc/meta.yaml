@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/394569308fb24d189953bd7d2b9eaccc/artifacts
+end_time: 1671605616130
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 394569308fb24d189953bd7d2b9eaccc
+run_name: sincere-dog-53
+run_uuid: 394569308fb24d189953bd7d2b9eaccc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671605614422
+status: 3
+tags: []
+user_id: ubuntu

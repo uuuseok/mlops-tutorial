@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3aa450f033524377a4e787c886d62181/artifacts
+end_time: 1671605605292
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3aa450f033524377a4e787c886d62181
+run_name: handsome-bug-904
+run_uuid: 3aa450f033524377a4e787c886d62181
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1671605603587
+status: 3
+tags: []
+user_id: ubuntu
