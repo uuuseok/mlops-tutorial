@@ -1,0 +1,55 @@
+import kfp
+from kfp.components import InputPath, OutputPath, create_component_from_func
+
+
+# decorator 사용
+@create_component_from_func
+def write_file_op(
+    # _path 라는 suffix 를 붙이고, type annotaion 은 OutputPath 로 선언해야 합니다.
+    data_output_path: OutputPath("dict")
+):
+    # package import 문은 함수 내부에 선언
+    import json
+
+    # dict data 선언
+    data = {
+        "a": 300,
+        "b": 10,
+    }
+
+    # file write to data_output_path
+    with open(data_output_path, "w") as f:
+        json.dump(data, f)
+
+
+@create_component_from_func
+def read_file_and_multiply_op(
+    # input 역시, _path 라는 suffix 를 붙이고, type annotation 은 InputPath 로 선언해야 합니다.
+    data_input_path: InputPath("dict")
+) -> float:
+    # package import 문은 함수 내부에 선언
+    import json
+
+    # file read to data_output_path
+    with open(data_input_path, "r") as f:
+        data = json.load(f)
+
+    # multiply
+    result = data["a"] * data["b"]
+
+    print(f"Result: {result}")
+
+    return result
+
+
+@kfp.dsl.pipeline(name="Data Passing by File Example")
+def data_passing_file_pipeline():
+    write_file_task = write_file_op()
+    _ = read_file_and_multiply_op(write_file_task.outputs["data_output"])
+
+
+if __name__ == "__main__":
+    kfp.compiler.Compiler().compile(
+        data_passing_file_pipeline,
+        "./data_passing_file_pipeline.yaml"
+    )
